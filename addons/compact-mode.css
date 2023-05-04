@@ -1,5 +1,5 @@
-@media screen and (min-width: 601px) and (max-width: 1400px) {
-  /* Minimize channels sidebar */
+/* @media screen and (min-width: 601px) and (max-width: 1400px) {
+  // Minimize channels sidebar
   .wrapper-1_HaEi.guilds-2JjMmN[aria-label] {
     z-index: 30 !important; 
   }
@@ -20,18 +20,18 @@
     left: 72px;
   }
 
-  /* Hide member list */
+  // Hide member list
   .membersWrap-3NUR2t {
     display: none;
   }
 
-  /* Compact Top bar */
+  // Compact Top bar
   .toolbar-3_r2xA > :nth-child(2),
   .toolbar-3_r2xA > :nth-child(4) {
     display: none;
   }
 
-  /* Compact Search */
+  // Compact Search
   .searchBar-zdmu7v {
     width: 28px;
     transition: width 0.2s ease-in-out;
@@ -61,10 +61,10 @@
     color: var(--interactive-muted);
     transform: scale(0.8);
   }
-}
+} */
 
 /* Very Compact (chat only) */
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 1400px) {
   .panels-3wFtMD  { position: fixed; bottom: -999px; }
   .chat-2ZfjoI { margin-left: 0px; }
   .sidebar-1tnWFu { width: 0px; }
