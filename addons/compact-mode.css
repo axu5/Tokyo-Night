@@ -1,4 +1,4 @@
-@media screen and (min-width: 601px) and (max-width: 920px) {
+@media screen and (min-width: 601px) and (max-width: 1400px) {
   /* Minimize channels sidebar */
   .wrapper-1_HaEi.guilds-2JjMmN[aria-label] {
     z-index: 30 !important; 
